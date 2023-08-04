@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/09/02/17/55/clouds-2708038_1280.jpg);
+    /* background: linear-gradient(180deg, blue 0%, #88d0f5 100%); */
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.hide{
+    display: flex;
+}
+.container{
+    background-color: #365fc7;
+    box-shadow: rgba(16, 13, 203, 0.24) 0px 3px 8px;
+    padding: 2rem;
+    color: #fdfdfd;
+    border-radius: 1rem;
+}
+.form h3{
+    margin-bottom: 1rem;
+}
+.form-input-container{
+    display: flex;
+}
+.form input{
+    padding: 0.8rem;
+    border: none;
+    flex: 1;
+    border-radius: 4px;
+}
+.form button{
+    padding: 0.8rem;
+    min-width: 50px;
+    margin-left: 8px;
+    background-color: #88d0f5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* clima */
+
+#weather-data{
+    border-top: 1px solid #fff;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+#weather data h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.6rem;
+}
+#weather-data h2 i{
+    font-size: 1rem;
+
+}
+#weather-data span{
+    margin: 0.6rem;
+}
+#country{
+    height: 15px;
+}
+#description-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .6rem 0;
+}
+#details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#details-container #humidity{
+    border-right: 1px solid #fff;
+    padding: .6rem;
+    margin: .6rem;
+}
